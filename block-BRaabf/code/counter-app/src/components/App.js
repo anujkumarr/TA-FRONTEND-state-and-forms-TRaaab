@@ -5,7 +5,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       counter: 0,
-      step: 0,
+      step: 1,
     };
   }
   handleStep = (num) => {
@@ -28,7 +28,6 @@ class App extends React.Component {
   handleRe = () => {
     this.setState({
       counter: 0,
-      step:0
     });
   };
 
