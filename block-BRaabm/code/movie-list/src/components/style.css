@@ -1,0 +1,138 @@
+CSS reset
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+margin:0;
+padding:0;
+}
+html,body {
+margin:0;
+padding:0;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+fieldset,img { 
+  border:0;
+}
+input{
+border:1px solid #b0b0b0;
+padding:3px 5px 4px;
+color:#979797;
+width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+font-style:normal;
+font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+font-size:100%;
+font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+ 
+/* custom styles */
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap; 
+}
+.heading{
+  text-align: center;
+  font-size: 3rem;
+}
+.flex-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-35 {
+  flex: 0 1 35%;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.m-card{
+ margin: 24px;
+ background-color: #eee;
+ padding: 24px;
+ border-radius: 10px;
+ box-shadow: 0px 2px 4px grey;
+}
+
+.img{
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+}
+.title{
+ font-size: 1.5rem;
+ font-weight: 700;
+ width: 200px;
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+
+.date{
+  color: grey;
+}
+.m-card:hover .btn{
+  display: block;
+  margin: 1rem;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 1.25rem;
+}
+
+.btn{
+  display: none;
+  width: 100%;
+}
+.btn-2{
+  color: white;
+  border-radius: 20px;
+  position: relative;
+  left: 220%;
+  width: 100%;
+  background-color: #000000;
+}
+.modal{
+  background-color: rgba(190, 146, 146,0.9);
+  opacity: 1;
+  padding: 5rem 2rem;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  right: 20%;
+  border-radius: 10px;
+  display: block;
+}
+.image-width-modal{
+  width: 100%;
+}
+.cross{
+  margin-left: 40rem;
+  cursor: pointer;
+}
+li{
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
