@@ -37,7 +37,8 @@ class movieList extends React.Component {
               </div>
               {this.state.movieIdx === idx ? <ul className="modal">
                 <div className="flex">
-                <li>{movie.Year}</li>
+                <h1>{ movie.Title}</h1>
+                <li>Released Year-{movie.Year}</li>
                 <span onClick={() => this.cross()} className="cross">
                  ❌
                 </span>
